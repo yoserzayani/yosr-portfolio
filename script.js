@@ -185,3 +185,22 @@ document.addEventListener("keydown", (event) => {
     closeProjectModal();
   }
 });
+
+
+
+// Light / dark mode toggle
+const themeToggle = document.getElementById("themeToggle");
+const savedTheme = localStorage.getItem("portfolio-theme");
+
+if (savedTheme === "dark") {
+  document.body.classList.add("dark-theme");
+  if (themeToggle) themeToggle.textContent = "☀️";
+}
+
+if (themeToggle) {
+  themeToggle.addEventListener("click", () => {
+    const isDark = document.body.classList.toggle("dark-theme");
+    localStorage.setItem("portfolio-theme", isDark ? "dark" : "light");
+    themeToggle.textContent = isDark ? "☀️" : "🌙";
+  });
+}
