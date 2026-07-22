@@ -1255,3 +1255,56 @@ body.dark-theme .tags span {
     height: 40px;
   }
 }
+
+/* AlMalaki Fresh — added using the existing portfolio card language */
+.almalaki-case {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  align-items: center;
+  gap: 30px;
+  padding: 22px;
+}
+
+.almalaki-case .compact-image {
+  height: 330px;
+  margin-bottom: 0;
+}
+
+.almalaki-case .compact-image img {
+  object-fit: contain;
+  object-position: center;
+  padding: 8px;
+}
+
+.almalaki-copy {
+  padding: 10px 18px 10px 4px;
+}
+
+.almalaki-copy h3 {
+  font-size: clamp(1.8rem, 4vw, 3.35rem);
+  line-height: 1;
+  letter-spacing: -0.055em;
+  margin-bottom: 14px;
+}
+
+@media (max-width: 980px) {
+  .almalaki-case {
+    grid-template-columns: 1fr;
+  }
+
+  .almalaki-case .compact-image {
+    height: 280px;
+  }
+
+  .almalaki-copy {
+    padding: 4px;
+  }
+}
+
+@media (max-width: 650px) {
+  .almalaki-case .compact-image {
+    height: 220px;
+  }
+}
+

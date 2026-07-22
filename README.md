@@ -61,3 +61,14 @@ vercel --prod
 - WSO2 API Manager publisher
 - Jenkins CI/CD pipeline
 - Moutouri marketplace interface
+- AlMalaki Fresh mobile application and administration dashboard illustration
+
+
+## AlMalaki Fresh update
+
+The original visual design was preserved. The update adds:
+
+- Freelance Full Stack & Mobile Developer experience for a Qatar-based client
+- AlMalaki Fresh mobile application and React administration dashboard case study
+- React Native, Expo, Prisma, PostgreSQL and Tap Payments in the skills/project content
+- A project-detail modal using the existing interaction system

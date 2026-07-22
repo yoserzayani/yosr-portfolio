@@ -55,6 +55,25 @@ tiltItems.forEach((item) => {
 
 // Project detail modal
 const projectData = {
+  almalaki: {
+    category: "Mobile Commerce • Admin Dashboard • Full Stack",
+    title: "AlMalaki Fresh — Mobile App & Admin Dashboard",
+    image: "assets/projects/almalaki-mobile-admin.png",
+    imageAlt: "AlMalaki Fresh mobile application and administration dashboard",
+    intro: "A connected e-commerce product developed remotely for a Qatar-based client, combining a customer mobile application, an administration dashboard and backend services.",
+    context: "The solution supports both sides of the business: customers use the mobile application to browse products, manage their cart, place orders and complete checkout, while administrators use the dashboard to manage catalogue data, orders, customers, payments, delivery settings and business operations.",
+    contribution: [
+      "Developed and integrated mobile features with React Native, Expo and TypeScript.",
+      "Worked on the React.js administration dashboard for products, categories, orders, customers, payments, reports and settings.",
+      "Connected both applications to Node.js and Express REST APIs.",
+      "Worked with Prisma ORM, PostgreSQL and Docker for data access and local deployment.",
+      "Integrated Tap Payments for card checkout and supported cash-on-delivery workflows.",
+      "Improved order reliability with idempotency, payment-status handling and stock-consistency considerations.",
+      "Tested Android builds and prepared the application for deployment and client review."
+    ],
+    tags: ["React Native", "Expo", "TypeScript", "React.js", "Node.js", "Express.js", "Prisma", "PostgreSQL", "Docker", "Tap Payments"],
+    result: "The project demonstrates practical client-facing experience across mobile development, web administration, backend APIs, database integration, payments and deployment workflows."
+  },
   biat: {
     category: "Banking • Microservices • System Design",
     title: "Open Banking Platform — BIAT",

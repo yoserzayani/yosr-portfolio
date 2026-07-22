@@ -1,0 +1,136 @@
+<svg width="1400" height="760" viewBox="0 0 1400 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="70" y1="36" x2="1320" y2="724" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9F0"/>
+      <stop offset="1" stop-color="#EAF2EE"/>
+    </linearGradient>
+    <linearGradient id="phoneScreen" x1="222" y1="130" x2="448" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCFEFC"/>
+      <stop offset="1" stop-color="#EFF5F1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="760" rx="40" fill="url(#bg)"/>
+  <circle cx="120" cy="112" r="64" fill="#315F9C" fill-opacity="0.07"/>
+  <circle cx="1290" cy="660" r="104" fill="#BD6A4F" fill-opacity="0.08"/>
+
+  <!-- Mobile app -->
+  <g>
+    <rect x="145" y="66" width="352" height="632" rx="54" fill="#16213E"/>
+    <rect x="162" y="84" width="318" height="596" rx="39" fill="url(#phoneScreen)"/>
+    <rect x="259" y="96" width="124" height="15" rx="8" fill="#16213E"/>
+
+    <circle cx="206" cy="154" r="23" fill="#315F9C"/>
+    <path d="M195 159C202 149 211 143 222 140C219 151 214 160 202 166C199 165 197 162 195 159Z" fill="white"/>
+    <text x="242" y="151" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#16213E">AlMalaki Fresh</text>
+    <text x="242" y="173" font-family="Arial, sans-serif" font-size="11" fill="#667085">Mobile shopping application</text>
+
+    <rect x="188" y="204" width="266" height="42" rx="17" fill="white" stroke="#D8E0DB"/>
+    <circle cx="211" cy="225" r="7" stroke="#7B8A82" stroke-width="2.5"/>
+    <path d="M216 230L223 237" stroke="#7B8A82" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="238" y="230" font-family="Arial, sans-serif" font-size="11" fill="#98A29C">Search fresh products</text>
+
+    <rect x="188" y="268" width="266" height="116" rx="24" fill="#315F9C"/>
+    <text x="210" y="303" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="white">FRESH PRODUCTS</text>
+    <text x="210" y="336" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="white">Easy mobile ordering</text>
+    <text x="210" y="361" font-family="Arial, sans-serif" font-size="12" fill="#D9E8FA">Card and cash checkout</text>
+    <circle cx="409" cy="328" r="32" fill="white" fill-opacity="0.14"/>
+    <path d="M394 339C401 326 410 320 425 315C421 329 414 340 402 347C399 345 396 343 394 339Z" fill="white"/>
+
+    <text x="188" y="420" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#16213E">Popular products</text>
+    <rect x="188" y="440" width="125" height="142" rx="20" fill="white" stroke="#D8E0DB"/>
+    <rect x="200" y="452" width="101" height="72" rx="15" fill="#F3E7D7"/>
+    <circle cx="250" cy="488" r="23" fill="#D8B86B"/>
+    <path d="M238 489C244 480 252 475 263 471C260 482 255 491 244 497C242 496 240 493 238 489Z" fill="#6C8141"/>
+    <text x="200" y="549" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16213E">Fresh basket</text>
+    <text x="200" y="569" font-family="Arial, sans-serif" font-size="10" fill="#315F9C">QAR 24.00</text>
+
+    <rect x="329" y="440" width="125" height="142" rx="20" fill="white" stroke="#D8E0DB"/>
+    <rect x="341" y="452" width="101" height="72" rx="15" fill="#E5EFE8"/>
+    <path d="M365 516C374 495 386 483 409 475C404 496 393 513 376 522C370 521 367 519 365 516Z" fill="#518A62"/>
+    <text x="341" y="549" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16213E">Organic greens</text>
+    <text x="341" y="569" font-family="Arial, sans-serif" font-size="10" fill="#315F9C">QAR 18.00</text>
+
+    <rect x="196" y="611" width="250" height="43" rx="18" fill="#16213E"/>
+    <text x="271" y="638" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="white">View shopping cart</text>
+  </g>
+
+  <!-- Admin dashboard -->
+  <g>
+    <rect x="548" y="107" width="765" height="510" rx="30" fill="white" stroke="#D9DFE6"/>
+    <rect x="548" y="107" width="765" height="64" rx="30" fill="#16213E"/>
+    <rect x="548" y="145" width="765" height="26" fill="#16213E"/>
+    <circle cx="586" cy="139" r="15" fill="#BD6A4F"/>
+    <path d="M579 142C584 135 590 132 598 129C596 137 592 143 584 147C582 146 580 144 579 142Z" fill="white"/>
+    <text x="612" y="145" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="white">AlMalaki Admin</text>
+    <rect x="1048" y="124" width="174" height="30" rx="15" fill="white" fill-opacity="0.10"/>
+    <text x="1072" y="144" font-family="Arial, sans-serif" font-size="11" fill="#D8E3F2">Search dashboard</text>
+    <circle cx="1260" cy="139" r="16" fill="white" fill-opacity="0.13"/>
+
+    <rect x="548" y="171" width="150" height="446" fill="#F6F7FA"/>
+    <text x="575" y="211" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#98A2B3">MANAGEMENT</text>
+    <rect x="562" y="228" width="122" height="42" rx="12" fill="#E8EEF7"/>
+    <rect x="577" y="241" width="17" height="17" rx="5" fill="#315F9C"/>
+    <text x="608" y="254" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#315F9C">Dashboard</text>
+    <text x="608" y="305" font-family="Arial, sans-serif" font-size="12" fill="#667085">Products</text>
+    <text x="608" y="350" font-family="Arial, sans-serif" font-size="12" fill="#667085">Categories</text>
+    <text x="608" y="395" font-family="Arial, sans-serif" font-size="12" fill="#667085">Orders</text>
+    <text x="608" y="440" font-family="Arial, sans-serif" font-size="12" fill="#667085">Customers</text>
+    <text x="608" y="485" font-family="Arial, sans-serif" font-size="12" fill="#667085">Payments</text>
+    <text x="608" y="530" font-family="Arial, sans-serif" font-size="12" fill="#667085">Settings</text>
+
+    <text x="730" y="215" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#16213E">Business overview</text>
+    <text x="730" y="240" font-family="Arial, sans-serif" font-size="11" fill="#667085">Catalogue, orders, payments and customers</text>
+
+    <rect x="730" y="271" width="164" height="91" rx="18" fill="#F8FAFD" stroke="#E3E7ED"/>
+    <text x="749" y="299" font-family="Arial, sans-serif" font-size="11" fill="#667085">Total orders</text>
+    <text x="749" y="337" font-family="Arial, sans-serif" font-size="29" font-weight="700" fill="#16213E">1,248</text>
+    <circle cx="861" cy="317" r="18" fill="#E8EEF7"/>
+    <path d="M852 317L859 324L871 310" stroke="#315F9C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="912" y="271" width="164" height="91" rx="18" fill="#F8FAFD" stroke="#E3E7ED"/>
+    <text x="931" y="299" font-family="Arial, sans-serif" font-size="11" fill="#667085">Card payments</text>
+    <text x="931" y="337" font-family="Arial, sans-serif" font-size="29" font-weight="700" fill="#16213E">QAR 42K</text>
+    <circle cx="1043" cy="317" r="18" fill="#F6EAE6"/>
+    <rect x="1034" y="311" width="19" height="13" rx="3" stroke="#BD6A4F" stroke-width="2"/>
+
+    <rect x="1094" y="271" width="164" height="91" rx="18" fill="#F8FAFD" stroke="#E3E7ED"/>
+    <text x="1113" y="299" font-family="Arial, sans-serif" font-size="11" fill="#667085">Active products</text>
+    <text x="1113" y="337" font-family="Arial, sans-serif" font-size="29" font-weight="700" fill="#16213E">386</text>
+    <circle cx="1225" cy="317" r="18" fill="#E7F0EA"/>
+    <path d="M1217 323C1221 313 1227 308 1236 305C1234 315 1230 322 1222 327C1220 326 1218 325 1217 323Z" fill="#7B9A83"/>
+
+    <rect x="730" y="387" width="330" height="188" rx="20" fill="#FBFCFD" stroke="#E3E7ED"/>
+    <text x="751" y="417" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#16213E">Recent orders</text>
+    <line x1="751" y1="443" x2="1038" y2="443" stroke="#E6E9EE"/>
+    <text x="751" y="469" font-family="Arial, sans-serif" font-size="10" fill="#667085">#AM-1048</text>
+    <text x="853" y="469" font-family="Arial, sans-serif" font-size="10" fill="#667085">Card</text>
+    <rect x="965" y="456" width="70" height="20" rx="10" fill="#E7F0EA"/>
+    <text x="981" y="470" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#588066">Confirmed</text>
+    <line x1="751" y1="490" x2="1038" y2="490" stroke="#E6E9EE"/>
+    <text x="751" y="516" font-family="Arial, sans-serif" font-size="10" fill="#667085">#AM-1047</text>
+    <text x="853" y="516" font-family="Arial, sans-serif" font-size="10" fill="#667085">Cash</text>
+    <rect x="965" y="503" width="70" height="20" rx="10" fill="#F8EEE3"/>
+    <text x="984" y="517" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#9C7042">Pending</text>
+    <line x1="751" y1="537" x2="1038" y2="537" stroke="#E6E9EE"/>
+
+    <rect x="1080" y="387" width="178" height="188" rx="20" fill="#FBFCFD" stroke="#E3E7ED"/>
+    <text x="1100" y="417" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#16213E">Order status</text>
+    <circle cx="1169" cy="487" r="52" stroke="#E8EEF7" stroke-width="16"/>
+    <path d="M1169 435A52 52 0 0 1 1218 505" stroke="#315F9C" stroke-width="16" stroke-linecap="round"/>
+    <text x="1149" y="493" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#16213E">72%</text>
+    <text x="1110" y="553" font-family="Arial, sans-serif" font-size="10" fill="#667085">Completed &amp; confirmed</text>
+  </g>
+
+  <g>
+    <rect x="548" y="649" width="765" height="43" rx="21.5" fill="white" fill-opacity="0.78"/>
+    <text x="578" y="676" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#315F9C">React Native</text>
+    <text x="690" y="676" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#315F9C">Expo</text>
+    <text x="755" y="676" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#315F9C">React.js</text>
+    <text x="838" y="676" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#315F9C">Node.js</text>
+    <text x="920" y="676" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#315F9C">Prisma</text>
+    <text x="1000" y="676" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#315F9C">PostgreSQL</text>
+    <text x="1105" y="676" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#315F9C">Docker</text>
+    <text x="1180" y="676" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#315F9C">Tap Payments</text>
+  </g>
+</svg>
