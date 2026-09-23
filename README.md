@@ -1,74 +1,51 @@
-# Yosr Zayani Portfolio — Pro 3D Version
+# Yosr Zayani — Full Stack Software Engineer Portfolio
 
-This is a modern futuristic one-page portfolio using:
+Recruiter-focused static portfolio built with HTML, CSS and JavaScript.
 
-- HTML
-- CSS
-- JavaScript
-- Canvas animated background
-- CSS 3D cards and floating effects
-- Professional generated profile image
-- Responsive design
+## Positioning
 
-## How to open locally
+The portfolio is intentionally focused on **Full Stack Software Engineering / Java Backend** rather than presenting several competing target roles.
 
-Open `index.html` in your browser.
+The content hierarchy is:
 
-For a better local preview, use VS Code extension **Live Server**.
+1. **AlMalaki Fresh** — real client full-stack experience (backend + admin dashboard + payment integration + targeted mobile adjustments)
+2. **Moutouri** — early freelance full-stack marketplace experience
+3. **BIAT-IT** — final-year engineering project (Spring Boot / Angular / WSO2 / microservices)
+4. Supporting internships, engineering stack, education and certifications
 
-## Files
+## Design
 
-```txt
-index.html
-styles.css
-script.js
-assets/profile-professional.png
-assets/Yosr_Zayani_CV.pdf
-```
+- Responsive dark/light interface
+- Lightweight CSS 3D hero composition
+- 3D hover tilt on recruiter-relevant cards
+- Animated background particles
+- Reduced-motion support
+- Interactive project case-study modals
+- No external UI framework required
 
-## How to deploy on Vercel
+## Run locally
 
-### Option 1: GitHub + Vercel
+Open `index.html` directly, or use VS Code Live Server.
 
-1. Create a GitHub repository named `yosr-portfolio`.
-2. Upload all files from this folder.
-3. Go to Vercel.
-4. Click **Add New Project**.
-5. Import your GitHub repository.
-6. Keep the project as a static site.
-7. Click **Deploy**.
+## Deploy to Vercel
 
-### Option 2: Vercel CLI
+This folder contains `vercel.json` and can be deployed as a static site.
 
 ```bash
 npm install -g vercel
-cd yosr-portfolio-pro
 vercel
 vercel --prod
 ```
 
-## What to customize later
+## Main files
 
-- Replace the GitHub link with your real GitHub profile.
-- Add real project screenshots when available.
-- Add live demo links and GitHub repository links for each project.
-- Replace the generated portrait if you take a real studio headshot.
+- `index.html`
+- `styles.css`
+- `script.js`
+- `assets/`
+- `vercel.json`
 
+## Notes
 
-## Project screenshots added
-
-- BIAT physical architecture
-- WSO2 API Manager publisher
-- Jenkins CI/CD pipeline
-- Moutouri marketplace interface
-- AlMalaki Fresh mobile application and administration dashboard illustration
-
-
-## AlMalaki Fresh update
-
-The original visual design was preserved. The update adds:
-
-- Freelance Full Stack & Mobile Developer experience for a Qatar-based client
-- AlMalaki Fresh mobile application and React administration dashboard case study
-- React Native, Expo, Prisma, PostgreSQL and Tap Payments in the skills/project content
-- A project-detail modal using the existing interaction system
+- Keep the CV in `assets/Yosr_Zayani_CV.pdf` updated with the same positioning used by the portfolio.
+- Replace the contact email in `index.html` if you prefer a personal professional address instead of the current ESPRIT address.
